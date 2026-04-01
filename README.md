@@ -26,6 +26,8 @@ The resulting info.md, model and simulation can be taken as ground truth, how th
 ## Tools & Libraries involved
 
 [1] Pharmacolibrary: https://github.com/digital-biosystems/Pharmacolibrary
+
 [2] OpenModelica: https://openmodelica.org/
+
 [3] Bodylight.js-FMU-Compiler: https://github.com/creative-connections/Bodylight.js-FMU-Compiler
 
