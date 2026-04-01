@@ -8,8 +8,7 @@ Each directory is named [drug_ATC_code_drug]_[drug_generic_name] and there is or
 
 1. [author]_[year]_[keywords].pdf of a scientific paper that is origin of the workflow of model reconstruction and paper results reproduction
 2. info.md - created/generated from paper and generic info about drug, parameters manually extracted from selected set if more PK models presented for different patient population. Models inherit (by object oriented modeling meaning) generic PK model from Pharmacolibrary [1]
-3. .mo - Modelica file - selected appropriate basic model to extend (number of compartments), 
-manually set the parameters from info.md into basic SI units - m3 instead of l and s instead of hours, etc.
+3. .mo - Modelica file - model inherits from basic model and sets parameter values manually set the parameters from info.md into basic SI units - m3 instead of l and s instead of hours, etc.
 4. .mat - default simulation data - in MATv4 result file format
 5. .png - default simulation chart - concentration curve
 6. .fmu export of .mo (used OpenModelica 1.26.3 [2])
@@ -20,7 +19,6 @@ The resulting info.md, model and simulation can be taken as ground truth, how th
 
 ## TODO
 
-* simulation data are produced in 
 * TODO other model/simulation standards - e.g. generate SBML or CellML or other modeling/simulation markup language
 * TODO python simulation without need of - either using FMU from .mo or without FMU as PK models can be expressed as set of ODA and algebraic equations to be solved by some python solver (which is btw part of FMU).
 * TODO provenance of all artifacts to be described used some standard e.g. PROV-O
