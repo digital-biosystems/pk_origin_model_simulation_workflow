@@ -19,7 +19,7 @@
     <dbs-fmi id="fmi" src="Midazolam_VanRongen_oral.js" fminame="Midazolam_VanRongen_oral" guid="{0c24b5f0-9b16-4d59-adf1-bf5e402c7039}"
              valuereferences="0,11" valuelabels="_D_outputAlias_C_central,der(_D_outputAlias_C_central)"
              inputs="Cl,64,5.9999999999999995e-5,1,t;Cmax,65,1,1,t;Cmin,66,1,1,t;Ctox_peak,67,1,1,t;Ctox_trough,68,1,1,t;F,69,1,1,t;Tlag,70,1,1,t;Vd,71,1,1,t;VdPerKg,72,1,1,t;Vdp,73,1,1,t;Vdp2,74,1,1,t;Vdp2PerKg,75,1,1,t;VdpPerKg,76,1,1,t;adminDuration,77,1,1,t;adminMass,78,1,1,t;adminPeriod,79,1,1,t;adminTime,80,1,1,t;central.C0,81,1,1,t;central.molarWeight,84,1,1,t;k12,87,5.9999999999999995e-5,1,t;" mode="oneshot" starttime="0.0" 
-             stoptime="86400.0" tolerance="1e-9" fstepsize="1.0">
+             stoptime="86400.0" tolerance="1e-9" fstepsize="100">
     </dbs-fmi>
   <dbs-chartjs4 fromid="fmi" refindex="0" labels="time,_D_outputAlias_C_central" timedenom="1"></dbs-chartjs4>
   <dbs-chartjs4 fromid="fmi" refindex="1" labels="time,der(_D_outputAlias_C_central)" timedenom="1"></dbs-chartjs4>
