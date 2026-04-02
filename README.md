@@ -1,10 +1,18 @@
 # Introduction
 
-this repository is a dataset for a reproducibility workflow for various studies. It is organized as follows.
-Each directory is named [drug_ATC_code_drug]_[drug_generic_name] and there is original paper, some information containing extracted data, reconstructed model and sample simulation.
+This repository is a sample dataset to construct workflow for reproducibility and additional scientific combining various studies. It is organized as follows.
+
+1st level directory - domain of computational research: 
+  * pharmacology, 
+  * cardiovascular, 
+  * combination
+
+2nd level directory 
+- in pharmacology each directory is named [drug_ATC_code_drug]_[drug_generic_name] and there is original paper(s), some information containing extracted data, reconstructed model and sample simulation.
+- in cardiovascular, there is again original paper(s), some information containing extracted data, reconstructed model and sample simulation.
+- in combination - sample combination of studies from different domains, combination of model and simulation reproduction
 
 # Sample workflow template dataset
-
 
 1. [author]_[year]_[keywords].pdf of a scientific paper that is origin of the workflow of model reconstruction and paper results reproduction
 2. info.md - created/generated from paper and generic info about drug, parameters manually extracted from selected set if more PK models presented for different patient population. Models inherit (by object oriented modeling meaning) generic PK model from Pharmacolibrary [1]
@@ -17,11 +25,15 @@ Each directory is named [drug_ATC_code_drug]_[drug_generic_name] and there is or
 
 The resulting info.md, model and simulation can be taken as ground truth, how the current implementation of reported PK model should correspond to the associated paper.
 
+## combination
+
+contains speculative combination of reproducible models in order to see, pharmacodynamics effects on pressure and volume characteristics of hemodynamics of cardiovascular system.
+
 ## TODO
 
-* TODO other model/simulation standards - e.g. generate SBML or CellML or other modeling/simulation markup language
-* TODO python simulation without need of - either using FMU from .mo or without FMU as PK models can be expressed as set of ODA and algebraic equations to be solved by some python solver (which is btw part of FMU).
-* TODO provenance of all artifacts to be described used some standard e.g. PROV-O
+* TODO other model/simulation standards - e.g. SBML or CellML or other modeling/simulation markup language
+* TODO pure python simulation - need to use differentiate algorithm and convert models to python script, either using FMU from .mo or without FMU as PK models can be expressed as set of ODE and algebraic equations to be solved by some python numerical solver (CVODE is part of FMU).
+* TODO provenance of all artifacts to be generated and described used standard PROV-O
 
 ## Tools & Libraries involved
 
@@ -30,4 +42,6 @@ The resulting info.md, model and simulation can be taken as ground truth, how th
 [2] OpenModelica: https://openmodelica.org/
 
 [3] Bodylight.js-FMU-Compiler: https://github.com/creative-connections/Bodylight.js-FMU-Compiler
+
+[4] digital biosystems web components: https://digital-biosystems.github.io/dbs-components/ 
 
