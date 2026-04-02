@@ -1,7 +1,13 @@
 
+
+# Task 
+
+Model and simulate the cardiovascular system to show pressure characteristics in arteries (systolic and diastolic pressure) during cardiac cycle.
+
+# information
+
 name: Hemodynamics of Cardiovascular system
 
-Model of cardiovascular system using to demonstrate elastic and resistance features of veins and arteries in pulmonary and systemic circulation and influence of cardiac output on it.
 
 # References
   [1] J. A. Goodwin, W. L. van Meurs, C. D. Sa Couto, J. E. W.Beneken, S. A. Graves, A model for educational simulation of infant cardiovascular physiology., Anesthesia and analgesia 99 (6)(2004) 1655&ndash;1664. doi:10.1213/01.ANE.0000134797.52793.AF.

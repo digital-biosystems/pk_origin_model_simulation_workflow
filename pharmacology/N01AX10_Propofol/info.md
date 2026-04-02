@@ -1,6 +1,10 @@
-Pharmacolibrary.Examples.Propofol.Propofol_Gerts_3C_ES
+Propofol
 
-Information
+# Task
+
+Reconstruct the pharmacokinetic model of the drug and simulate the PK profile of standard dose in 24h
+
+# Information
 
 name:	Propofol
 ATC code:	N01AX10

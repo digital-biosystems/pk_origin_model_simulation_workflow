@@ -3,7 +3,7 @@ name: PKPD influence of digoxin on Hemodynamics of Cardiovascular system
 
 # Task
 
-What is hemodynamic consequences on pulsatile pressure and volume characteristics after intravenous application of digoxin 0.5 mg
+What is hemodynamic consequences on pulsatile pressure and volume characteristics after intravenous application of digoxin 0.5 mg?
 
 # Methods
 

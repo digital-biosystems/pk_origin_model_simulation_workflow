@@ -2,7 +2,11 @@ C_CardiovascularSystem
 C01A_CardiacGlycosides
 C01AA05_Digoxin
 
-Information
+# Task
+
+Reconstruct the pharmacokinetic model of the drug and simulate the PK profile of standard dose in 24h.
+
+# Information
 
 name:	Digoxin
 ATC code:	C01AA05
