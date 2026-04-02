@@ -1,6 +1,6 @@
 # Introduction
 
-This repository is a sample dataset to construct workflow for reproducibility and additional scientific combining various studies. It is organized as follows.
+This repository is a sample dataset to construct workflow for reproducibility and additional tasks combining various studies. It is organized as follows.
 
 1st level directory - domain of computational research: 
   * pharmacology, 
@@ -8,9 +8,9 @@ This repository is a sample dataset to construct workflow for reproducibility an
   * combination
 
 2nd level directory 
-- in pharmacology each directory is named [drug_ATC_code_drug]_[drug_generic_name] and there is original paper(s), some information containing extracted data, reconstructed model and sample simulation.
-- in cardiovascular, there is again original paper(s), some information containing extracted data, reconstructed model and sample simulation.
-- in combination - sample combination of studies from different domains, combination of model and simulation reproduction
+- in pharmacology each directory is named [drug_ATC_code_drug]_[drug_generic_name] and there is original paper(s), some information containing extracted data, reconstructed model and sample simulation. The task is to construct PK model and reproduce PK simulation reported in paper.
+- in cardiovascular, there is again original paper(s), some information containing extracted data, reconstructed model and sample simulation. The task is again to construct model and reproduce reported simulation in paper.
+- in combination - sample combination of studies from different domains, combination of model and simulation reproduction. The task is more complex - to combine pharmacology and cardiovascular model in order to simulate influence of both systems. Details in info.md
 
 # Sample workflow template dataset
 
